@@ -1,0 +1,8 @@
+@charset "UTF-8";
+
+#chatlist {
+	margin: 10px 0px 10px 0px;
+	height: 300px;
+	border: 1px dashed #eee;
+	overflow-y: scroll;
+}
