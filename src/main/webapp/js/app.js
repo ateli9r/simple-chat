@@ -3,7 +3,7 @@ import { getDatabase, ref, set, onValue } from "https://www.gstatic.com/firebase
 
 // Firebase 접속 설정
 const firebaseConfig = {
-	apiKey: "AIzaSyC0MK_t7ucVktcn2ke12VTuu6I5EJcQg6I",
+	apiKey: "...",
 	authDomain: "simple-chat-b9a82.firebaseapp.com",
 	databaseURL: "https://simple-chat-b9a82-default-rtdb.firebaseio.com",
 	projectId: "simple-chat-b9a82",
@@ -12,6 +12,7 @@ const firebaseConfig = {
 	appId: "1:943796905544:web:65ba710d883cfe6c939a7d",
 	measurementId: "G-X1XD8YJY31"
 };
+
 // Firebase 초기화
 const app = initializeApp(firebaseConfig);
 
